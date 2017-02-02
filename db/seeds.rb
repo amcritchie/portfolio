@@ -1,7 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+
+Project.create(title: 'PlanoCore', url: nil, description: "Rails API application used for all PlanoAdmin's CRUD opperations")
+Project.create(title: 'PlanoAdmin', url: 'http://planoadmin-staging.planomatic.com/', description: 'Angular frontend application used for employee managment.')
