@@ -1,0 +1,12 @@
+<br>
+<br>
+<br>
+<div class="container">
+  <h1><%= @project.title %></h1>
+  <a><%= @project.url %></a>
+  <h5><%= @project.description %></h5>
+  <hr>
+  <%= markdown("`app/controllers/planoadmin/employees_controller.rb`") %>
+  <%= markdown(@controller) %>
+  <hr>
+</div>

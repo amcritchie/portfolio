@@ -4,4 +4,8 @@ Rails.application.routes.draw do
 
   # Root
   root :to => 'projects#landing'
+
+  # Specific Projects
+  get '/planocore', to: 'projects#planocore'
+  get '/planoadmin', to: 'projects#planoadmin'
 end
