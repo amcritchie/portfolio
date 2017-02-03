@@ -16,3 +16,28 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+
+// // PlanoCore Callers.
+//  this.create = function(callback) {
+//    validate.submit_input_visible('#create_employee_form', function() {
+//      planocore.write('/planoadmin/employees/create', $('#create_employee_form'), callback);
+//    });
+//  };
+//  this.clone = function(callback) {
+//    validate.submit_input_visible('#clone_employee_form', function() {
+//      planocore.write('/planoadmin/employees/create/clone', $('#clone_employee_form'), callback);
+//    });
+//  };
+//  this.validate_new_employee_email = function(callback) {
+//    planocore.write('/planoadmin/employees/create/check_email', $('#new_employee_email_check_form'), callback);
+//  };
+//  this.read = function(employee, callback) {
+//    planocore.read('/planoadmin/employees/read', employee.model.id, callback);
+//  };
+//  this.update = function(callback) {
+//    validate.submit_input_visible('#update_employee_form', function() {
+//      planocore.write('/planoadmin/employees/update', $('#update_employee_form'), callback);
+//    });
+//  };

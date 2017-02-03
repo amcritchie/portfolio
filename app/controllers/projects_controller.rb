@@ -4,11 +4,15 @@ class ProjectsController < ApplicationController
   def planocore
     @project = Project.find_by_slug('planocore')
     @controller = Planocore.controller
+    @employee_model = Planocore.employee_model
+    @user_model = Planocore.user_model
   end
 
   def planoadmin
     @project = Project.find_by_slug('planoadmin')
     @controller = Planoadmin.controller
+    @service = Planoadmin.service
+    @edit_form = Planoadmin.edit_form
   end
 
   # GET /projects

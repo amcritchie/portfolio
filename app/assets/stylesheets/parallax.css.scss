@@ -15,6 +15,12 @@
 
 // Background of Landing Parallax
 .bg-mountains{
+  // background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('rockie_mountains.jpg');
+
+  // background: linear-gradient(
+  //     rgba(0, 0, 0, 0.7),
+  //     rgba(0, 0, 0, 0.7)
+  //   );
   /* The image used */
   background-image: url("rockie_mountains.jpg");
 }

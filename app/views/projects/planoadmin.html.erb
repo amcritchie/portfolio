@@ -2,11 +2,20 @@
 <br>
 <br>
 <div class="container">
-  <h1><%= @project.title %></h1>
+  <h1><%= @project.title %> <span><img width="35" src="assets/angular-logo"></span></h1>
   <a><%= @project.url %></a>
   <h5><%= @project.description %></h5>
   <hr>
+  <h5>Employees Controller - JS</h5>
   <%= markdown("`app/assets/javascripts/controllers/EmployeesCtrl.js`") %>
   <%= markdown(@controller) %>
+  <hr>
+  <h5>Employees Service - JS</h5>
+  <%= markdown("`app/assets/javascripts/services/employeeService.js`") %>
+  <%= markdown(@service) %>
+  <hr>
+  <h5>Employees Edit - HTML</h5>
+  <%= markdown("`app/assets/javascripts/views/employees/edit.html`") %>
+  <%= markdown(@edit_form) %>
   <hr>
 </div>
