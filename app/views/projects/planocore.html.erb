@@ -4,7 +4,10 @@
 <div class="container">
   <h1><%= @project.title %> <span><img width="35" src="assets/icon_rails"></span></h1>
   <a><%= @project.url %></a>
-  <h5><%= @project.description %></h5>
+  <h5>
+    Rails API application used as a backend for PlanoAdmin and other applications.
+    Includes intragrations with AWS and RMagick.
+  </h5>
   <hr>
   <h5>Employees Controller - Ruby</h5>
   <%= markdown("`app/controllers/planoadmin/employees_controller.rb`") %>

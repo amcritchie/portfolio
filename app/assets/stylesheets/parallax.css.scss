@@ -15,14 +15,8 @@
 
 // Background of Landing Parallax
 .bg-mountains{
-  // background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('rockie_mountains.jpg');
-
-  // background: linear-gradient(
-  //     rgba(0, 0, 0, 0.7),
-  //     rgba(0, 0, 0, 0.7)
-  //   );
-  /* The image used */
-  background-image: url("rockie_mountains.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('rockie_mountains.jpg');
+  background-position: center;
 }
 // Background of PlanoAdmin Parallax
 .bg-planoadmin{
@@ -44,7 +38,6 @@
   top: 20%;
   width: 100%;
   text-align: center;
-  // color: #000;
   color: white;
 }
 
@@ -56,4 +49,8 @@
 }
 .caption.top-0{
   top: 0%;
+}
+
+.shaded-caption{
+  background: rgba(0, 0, 0, 0.5);
 }

@@ -2,9 +2,25 @@
 <br>
 <br>
 <div class="container">
-  <h1><%= @project.title %> <span><img width="35" src="assets/angular-logo"></span></h1>
-  <a><%= @project.url %></a>
-  <h5><%= @project.description %></h5>
+  <a></a>
+  <div class="row">
+    <div class="col-md-8 col-sm-12">
+      <h1><%= @project.title %> <span><img width="35" src="assets/angular-logo"></span></h1>
+      <h5>
+        Employee managment application built on an AngularJS frontend.
+        Includes intragrations with AWS, UI Router and Bootstrap.
+      </h5>
+    </div>
+    <div class="col-md-4 col-sm-12" style="text-align: center;">
+      <div class="service-item">
+        <h4>
+          <strong>Live Demo</strong>
+        </h4>
+        <p>Email / Password <br> alex@farviewsoft.com / farview </p>
+        <a class="btn btn-primary" href="http://planoadmin-staging.planomatic.com/" target="_blank">Demo</a>
+      </div>
+    </div>
+  </div>
   <hr>
   <h5>Employees Controller - JS</h5>
   <%= markdown("`app/assets/javascripts/controllers/EmployeesCtrl.js`") %>
