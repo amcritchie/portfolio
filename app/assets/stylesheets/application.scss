@@ -10,6 +10,7 @@
 * files in this directory. Styles in this file should be added after the last require_* statement.
 * It is generally better to create a new file per style scope.
 *
+*= require font-awesome
 *= require_tree .
 *= require_self
 */
@@ -20,4 +21,8 @@
 // Rounds square images
 .img-rounded {
   border-radius: 50%
+}
+
+.vertical-padding-50 {
+  padding: 70px 0 40px;
 }

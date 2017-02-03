@@ -1,30 +1,5 @@
-<!-- Navigation -->
-<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
-  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="#">Carousel</a>
-  <div class="navbar-collapse collapse" id="navbarCollapse" aria-expanded="false" style="">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline mt-2 mt-md-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-
 <!-- Parallax Intro -->
-<div class="parallax">
+<div class="parallax bg-mountains">
   <div class="text-vertical-center caption">
     <img width="160" src="assets/alex" class="img-rounded">
     <h1>Alex McRitchie</h1>
@@ -36,14 +11,18 @@
 </div>
 
 <!-- Parallax Demo -->
-<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
-  <h3 style="text-align:center;">Parallax Demo</h3>
-  <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
-</div>
+<section id="about">
+  <!-- <br> -->
+  <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">Parallax Demo</h3>
+    <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
+  </div>
+</section>
+
 
 <!-- Services -->
 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-<section id="services" class="services bg-primary">
+<section id="services" class="services bg-danger">
   <div class="container">
     <div class="row text-center">
       <div class="col-lg-12 col-lg-offset-1">
@@ -112,7 +91,128 @@
   <!-- /.container -->
 </section>
 
-<!-- Second Parallax -->
+
+<style>
+  .shaded-caption{
+      background: rgba(0, 0, 0, 0.5);
+  }
+  .innerr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+</style>
+
+<!-- PlanoAdmin Title -->
+<section id="planoadmin" class="vertical-padding-50 bg-primary">
+  <div style="color: #fff;text-align:center;text-align: justify;">
+    <h2 style="text-align:center;">PlanoAdmin
+      <span><img width="35" src="assets/angular-logo"></span>
+    </h2>
+    <h4 style="text-align:center;">Employee Management</h4>
+  </div>
+</section>
+<!-- PlanoAdmin Parallax -->
+<div class="parallax bg-planoadmin">
+  <div class="caption shaded-caption top-20 vertical-padding-50">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12 col-lg-offset-3">
+          <hr class="small">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 offset-md-2">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-laptop fa-stack-1x text-primary"></i>
+                </span>
+                <h4>
+                  <strong>Live Demo</strong>
+                </h4>
+                <p>Email / Password <br> alex@farviewsoft.com / farview </p>
+                <a class="btn btn-light" href="http://planoadmin-staging.planomatic.com/" target="_blank">Demo</a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-code fa-stack-1x text-primary"></i>
+                </span>
+                <h4>
+                  <strong>Sample Code</strong>
+                </h4>
+                <p>This app's repository is private, but the link below has samples.</p>
+                <a class="btn btn-light" href="/planoadmin">Code</a>
+              </div>
+            </div>
+          </div>
+          <!-- /.row (nested) -->
+        </div>
+        <!-- /.col-lg-10 -->
+      </div>
+      <!-- /.row -->
+    </div>
+  </div>
+</div>
+
+<!-- PlanoAdmin Title -->
+<section id="planocore" class="vertical-padding-50 bg-primary">
+  <div style="color: #fff;text-align:center;text-align: justify;">
+    <h2 style="text-align:center;">PlanoCore
+      <span><img width="35" src="assets/icon_rails"></span>
+    </h2>
+    <h4 style="text-align:center;">Session and Model Management</h4>
+  </div>
+</section>
+<!-- PlanoAdmin Parallax -->
+<div class="parallax bg-planoadmin">
+  <div class="caption shaded-caption top-20 vertical-padding-50">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-12 col-lg-offset-3">
+          <hr class="small">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 offset-md-2">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-laptop fa-stack-1x text-primary"></i>
+                </span>
+                <h4>
+                  <strong>Live Demo</strong>
+                </h4>
+                <p>Email / Password <br> alex@farviewsoft.com / farview </p>
+                <a class="btn btn-light" href="http://planoadmin-staging.planomatic.com/">Demo</a>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="service-item">
+                <span class="fa-stack fa-4x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-code fa-stack-1x text-primary"></i>
+                </span>
+                <h4>
+                  <strong>Sample Code</strong>
+                </h4>
+                <p>This app's repository is private, but the link below has samples.</p>
+                <a class="btn btn-light" href="/planocore">Code</a>
+              </div>
+            </div>
+          </div>
+          <!-- /.row (nested) -->
+        </div>
+        <!-- /.col-lg-10 -->
+      </div>
+      <!-- /.row -->
+    </div>
+  </div>
+</div>
+
+
+
+
 <div class="parallax">
   <div class="caption">
     <span class="border">SCROLL DOWN</span>
