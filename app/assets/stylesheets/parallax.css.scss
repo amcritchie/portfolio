@@ -1,0 +1,26 @@
+// Class given to parallax div.
+.parallax {
+  /* The image used */
+  background-image: url("rockie_mountains.jpg");
+
+  /* Set a specific height */
+  min-height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* pos: rel is needed so text stays in parallax image */
+  position: relative;
+}
+
+// Class given to caption inside parallax.
+.caption {
+  position: absolute;
+  left: 0;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
